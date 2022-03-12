@@ -1,0 +1,70 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+        background-image: url("/assets/souls.gif");
+        min-height: 100vh;
+        min-width: 100vh;
+        background-size: 100%;  
+        background-repeat: black;
+}
+
+.bottom:hover {
+        transform: scale(1.2)
+}
+
+.center {
+        margin: auto;
+        padding: 25vh;
+        text-align: center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+}
+
+.text {
+        color: white;
+        font-weight: bold;
+        font-size: 150;
+
+}
+
+.blackText {
+        color: white;
+        font-weight: bold;
+        font-size: 150;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+}
+
+.middle {
+        position:absolute;
+        left: 50vh;
+        top: 40vh;
+        opacity: 0.80;
+}
+
+.bottom {
+        position:absolute;
+        right: 5vh;
+        bottom: 0;
+        color:aquamarine;
+        transition: transform 500ms;
+}
+html, body {
+        overflow: hidden;
+}
+
+.astext {
+        background:none;
+        border:none;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+}

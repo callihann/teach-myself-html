@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+                <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+                <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+                <h1 class="center">This is a simple navigation page</h1>
+                <h2 class="center">It is meant to redirect the user between pages.</h2>
+                <div class="buttons center">
+                        <button class="mdc-button mdc-button--raised" onclick="location.href = 'index.html';">
+                                <span class="mdc-button__label">Index.html</span>
+                        </button>
+                        <button class="mdc-button mdc-button--raised" onclick="location.href = 'navigation.html';">
+                                <span class="mdc-button__label">Navigation.html (you are here)</span>
+                        </button>
+                        <button class="mdc-button mdc-button--raised" onclick="location.href = 'personal.html';">
+                                <span class="mdc-button__label">personal.html</span>
+                        </button>
+                        <button class="mdc-button mdc-button--raised" onclick="location.href = 'school.html';">
+                                <span class="mdc-button__label">school.html</span>
+                        </button>
+                        
+                </div>
+                <script>
+			mdc.ripple.MDCRipple.attachTo(document.querySelector('.mdc-button'));
+                </script>
+        </body>
+</html>
